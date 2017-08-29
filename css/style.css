@@ -5083,16 +5083,50 @@ label.panel-block {
   background-color: whitesmoke;
   padding: 3rem 1.5rem 6rem; }
 
+body {
+  color: #363636; }
+
 .main-header {
   background-color: #FFBC00;
   background-size: cover;
   background-position: center; }
-  .main-header .hero-body .title {
-    font-size: 5rem; }
+  .main-header .hero-body h2 {
+    margin-bottom: 3rem; }
+  .main-header .hero-body {
+    padding-top: 6rem !important;
+    padding-bottom: 6rem !important; }
+
+.heading {
+  text-transform: none !important;
+  font-weight: bold !important; }
+
+.heading h2 {
+  font-size: 1.75rem; }
+
+.is-bold {
+  font-weight: bold !important; }
 
 .small-column .body {
   max-width: 500px;
   margin: auto; }
+
+a:not(.button) {
+  color: #333333;
+  text-decoration: underline; }
+
+.content h4 {
+  font-weight: bold !important; }
+
+.heading h2, .content h2 {
+  font-size: 2rem !important; }
+
+a.nav-item:not(.button) {
+  color: #363636 !important;
+  font-weight: bold;
+  text-decoration: none; }
+
+.contact-us p {
+  margin-bottom: 0 !important; }
 
 .logo {
   width: 100px; }
