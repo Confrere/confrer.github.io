@@ -5089,12 +5089,17 @@ body {
 .main-header {
   background-color: #FFBC00;
   background-size: cover;
-  background-position: center; }
+  background-position: center;
+  background-color: transparent !important; }
   .main-header .hero-body h2 {
     margin-bottom: 3rem; }
   .main-header .hero-body {
     padding-top: 6rem !important;
     padding-bottom: 6rem !important; }
+
+.navbar {
+  min-height: 3.25rem;
+  padding: 1rem; }
 
 .heading {
   text-transform: none !important;
@@ -5129,10 +5134,10 @@ a.nav-item:not(.button) {
   margin-bottom: 0 !important; }
 
 .logo {
-  width: 100px; }
+  width: 150px; }
 
 .big-logo {
   width: 400px; }
 
-.navbar {
-  background-color: #FFBC00; }
+.navbar-burger:hover {
+  background-color: transparent !important; }
