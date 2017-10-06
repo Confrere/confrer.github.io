@@ -5084,7 +5084,9 @@ label.panel-block {
   padding: 3rem 1.5rem 6rem; }
 
 body {
-  color: #363636; }
+  color: #363636;
+  font-size: 18px;
+  font-family: Caslon540LTStd-Roman, Baskerville, serif; }
 
 .main-header {
   background-color: #FFBC00;
@@ -5099,7 +5101,8 @@ body {
 
 .navbar {
   min-height: 3.25rem;
-  padding: 1rem; }
+  padding: 1rem;
+  font-family: AvenirNextLTPro-Regular, system-ui, sans-serif; }
 
 .heading {
   text-transform: none !important;
